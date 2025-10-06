@@ -1,0 +1,38 @@
+{
+  "token": "YOUR_SWITCHBOT_OPEN_TOKEN",
+  "secret": "YOUR_SWITCHBOT_SECRET",
+  "devices": [
+    {
+      "name": "Living Room Light",
+      "deviceId": "YOUR_LIGHT_DEVICE_ID",
+      "commands": {
+        "on": {
+          "commandType": "command",
+          "command": "turnOn",
+          "parameter": "default"
+        },
+        "off": {
+          "commandType": "command",
+          "command": "turnOff",
+          "parameter": "default"
+        }
+      }
+    },
+    {
+      "name": "Living Room TV",
+      "deviceId": "YOUR_TV_DEVICE_ID",
+      "commands": {
+        "on": {
+          "commandType": "command",
+          "command": "turnOn",
+          "parameter": "default"
+        },
+        "off": {
+          "commandType": "command",
+          "command": "turnOff",
+          "parameter": "default"
+        }
+      }
+    }
+  ]
+}
